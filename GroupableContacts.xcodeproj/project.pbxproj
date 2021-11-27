@@ -31,6 +31,20 @@
 		047BE9BD2751C8360094BC5F /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9BB2751C8360094BC5F /* ContactDetailView.swift */; };
 		047BE9BF2751DFCC0094BC5F /* ContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9BE2751DFCC0094BC5F /* ContactsCell.swift */; };
 		047BE9C02751DFCC0094BC5F /* ContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9BE2751DFCC0094BC5F /* ContactsCell.swift */; };
+		047BE9C32751E7CB0094BC5F /* ContactGroupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9C22751E7CB0094BC5F /* ContactGroupManager.swift */; };
+		047BE9C42751E7CB0094BC5F /* ContactGroupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9C22751E7CB0094BC5F /* ContactGroupManager.swift */; };
+		047BE9C72751ED880094BC5F /* AddToContactGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9C62751ED880094BC5F /* AddToContactGroupView.swift */; };
+		047BE9C82751ED880094BC5F /* AddToContactGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9C62751ED880094BC5F /* AddToContactGroupView.swift */; };
+		047BE9CA2751F2080094BC5F /* AddToContactGroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9C92751F2080094BC5F /* AddToContactGroupViewModel.swift */; };
+		047BE9CB2751F2080094BC5F /* AddToContactGroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9C92751F2080094BC5F /* AddToContactGroupViewModel.swift */; };
+		047BE9CD275206950094BC5F /* ContactGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9CC275206950094BC5F /* ContactGroupCell.swift */; };
+		047BE9CE275206950094BC5F /* ContactGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9CC275206950094BC5F /* ContactGroupCell.swift */; };
+		047BE9D1275207C20094BC5F /* ContactGroupListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9D0275207C20094BC5F /* ContactGroupListView.swift */; };
+		047BE9D2275207C20094BC5F /* ContactGroupListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9D0275207C20094BC5F /* ContactGroupListView.swift */; };
+		047BE9D4275207DF0094BC5F /* ContactGroupListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9D3275207DF0094BC5F /* ContactGroupListViewModel.swift */; };
+		047BE9D5275207DF0094BC5F /* ContactGroupListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9D3275207DF0094BC5F /* ContactGroupListViewModel.swift */; };
+		047BE9DB275209660094BC5F /* ContactGroupDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9DA275209660094BC5F /* ContactGroupDetailView.swift */; };
+		047BE9DC275209660094BC5F /* ContactGroupDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9DA275209660094BC5F /* ContactGroupDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +85,13 @@
 		047BE9B72751BF5B0094BC5F /* Contact+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+Extensions.swift"; sourceTree = "<group>"; };
 		047BE9BB2751C8360094BC5F /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
 		047BE9BE2751DFCC0094BC5F /* ContactsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCell.swift; sourceTree = "<group>"; };
+		047BE9C22751E7CB0094BC5F /* ContactGroupManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactGroupManager.swift; sourceTree = "<group>"; };
+		047BE9C62751ED880094BC5F /* AddToContactGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToContactGroupView.swift; sourceTree = "<group>"; };
+		047BE9C92751F2080094BC5F /* AddToContactGroupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToContactGroupViewModel.swift; sourceTree = "<group>"; };
+		047BE9CC275206950094BC5F /* ContactGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactGroupCell.swift; sourceTree = "<group>"; };
+		047BE9D0275207C20094BC5F /* ContactGroupListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactGroupListView.swift; sourceTree = "<group>"; };
+		047BE9D3275207DF0094BC5F /* ContactGroupListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactGroupListViewModel.swift; sourceTree = "<group>"; };
+		047BE9DA275209660094BC5F /* ContactGroupDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactGroupDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +141,7 @@
 		047BE9672751A9330094BC5F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				047BE9C12751E7810094BC5F /* ContactGroups */,
 				047BE9BA2751C8270094BC5F /* ContactDetail */,
 				047BE9B32751BAFC0094BC5F /* Contacts */,
 				047BE9A72751AB6C0094BC5F /* Permissions */,
@@ -193,6 +215,44 @@
 				047BE9BB2751C8360094BC5F /* ContactDetailView.swift */,
 			);
 			path = ContactDetail;
+			sourceTree = "<group>";
+		};
+		047BE9C12751E7810094BC5F /* ContactGroups */ = {
+			isa = PBXGroup;
+			children = (
+				047BE9D9275209470094BC5F /* ContactGroupDetail */,
+				047BE9CF2752079F0094BC5F /* ContactGroupList */,
+				047BE9C52751ED6F0094BC5F /* AddToContactGroup */,
+				047BE9C22751E7CB0094BC5F /* ContactGroupManager.swift */,
+				047BE9CC275206950094BC5F /* ContactGroupCell.swift */,
+			);
+			path = ContactGroups;
+			sourceTree = "<group>";
+		};
+		047BE9C52751ED6F0094BC5F /* AddToContactGroup */ = {
+			isa = PBXGroup;
+			children = (
+				047BE9C62751ED880094BC5F /* AddToContactGroupView.swift */,
+				047BE9C92751F2080094BC5F /* AddToContactGroupViewModel.swift */,
+			);
+			path = AddToContactGroup;
+			sourceTree = "<group>";
+		};
+		047BE9CF2752079F0094BC5F /* ContactGroupList */ = {
+			isa = PBXGroup;
+			children = (
+				047BE9D0275207C20094BC5F /* ContactGroupListView.swift */,
+				047BE9D3275207DF0094BC5F /* ContactGroupListViewModel.swift */,
+			);
+			path = ContactGroupList;
+			sourceTree = "<group>";
+		};
+		047BE9D9275209470094BC5F /* ContactGroupDetail */ = {
+			isa = PBXGroup;
+			children = (
+				047BE9DA275209660094BC5F /* ContactGroupDetailView.swift */,
+			);
+			path = ContactGroupDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,14 +413,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047BE9C32751E7CB0094BC5F /* ContactGroupManager.swift in Sources */,
 				047BE9A92751AB7B0094BC5F /* PermissionEvaluator.swift in Sources */,
 				047BE9B02751B0060094BC5F /* PermissionsViewModel.swift in Sources */,
 				047BE9B52751BB0D0094BC5F /* ContactsViewModel.swift in Sources */,
 				047BE9B82751BF5B0094BC5F /* Contact+Extensions.swift in Sources */,
 				047BE9922751A9350094BC5F /* ContactsView.swift in Sources */,
 				047BE9BF2751DFCC0094BC5F /* ContactsCell.swift in Sources */,
+				047BE9D1275207C20094BC5F /* ContactGroupListView.swift in Sources */,
+				047BE9C72751ED880094BC5F /* AddToContactGroupView.swift in Sources */,
+				047BE9CA2751F2080094BC5F /* AddToContactGroupViewModel.swift in Sources */,
 				047BE9BC2751C8360094BC5F /* ContactDetailView.swift in Sources */,
+				047BE9CD275206950094BC5F /* ContactGroupCell.swift in Sources */,
+				047BE9D4275207DF0094BC5F /* ContactGroupListViewModel.swift in Sources */,
 				047BE9AC2751AD300094BC5F /* PermissionsView.swift in Sources */,
+				047BE9DB275209660094BC5F /* ContactGroupDetailView.swift in Sources */,
 				047BE9902751A9350094BC5F /* GroupableContactsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,14 +436,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047BE9C42751E7CB0094BC5F /* ContactGroupManager.swift in Sources */,
 				047BE9AA2751AB7B0094BC5F /* PermissionEvaluator.swift in Sources */,
 				047BE9B12751B0060094BC5F /* PermissionsViewModel.swift in Sources */,
 				047BE9B62751BB0D0094BC5F /* ContactsViewModel.swift in Sources */,
 				047BE9B92751BF5B0094BC5F /* Contact+Extensions.swift in Sources */,
 				047BE9932751A9350094BC5F /* ContactsView.swift in Sources */,
 				047BE9C02751DFCC0094BC5F /* ContactsCell.swift in Sources */,
+				047BE9D2275207C20094BC5F /* ContactGroupListView.swift in Sources */,
+				047BE9C82751ED880094BC5F /* AddToContactGroupView.swift in Sources */,
+				047BE9CB2751F2080094BC5F /* AddToContactGroupViewModel.swift in Sources */,
 				047BE9BD2751C8360094BC5F /* ContactDetailView.swift in Sources */,
+				047BE9CE275206950094BC5F /* ContactGroupCell.swift in Sources */,
+				047BE9D5275207DF0094BC5F /* ContactGroupListViewModel.swift in Sources */,
 				047BE9AD2751AD300094BC5F /* PermissionsView.swift in Sources */,
+				047BE9DC275209660094BC5F /* ContactGroupDetailView.swift in Sources */,
 				047BE9912751A9350094BC5F /* GroupableContactsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

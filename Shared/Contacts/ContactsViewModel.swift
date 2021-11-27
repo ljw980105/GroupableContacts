@@ -12,6 +12,7 @@ import ContactsUI
 class ContactsViewModel: ObservableObject {
     @Published var contacts: [CNContact] = []
     @Published var contactsGroupedByFirstLetter: [ContactsGroupedByFirstLetter] = []
+    var contactForGroup: CNContact? = nil
     
     init() {
         contacts = getContacts()

@@ -11,6 +11,7 @@ import Contacts
 
 struct ContactsView: View {
     @ObservedObject var viewModel = ContactsViewModel()
+    @State var isAddingToGroup = false
     
     var body: some View {
         NavigationView {
@@ -22,7 +23,10 @@ struct ContactsView: View {
                                 ContactsCell(contact: contact)
                                     .contextMenu {
                                         Button {
-                                            print("Change country setting")
+                                            viewModel.contactForGroup = contact
+                                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                                                isAddingToGroup = true
+                                            }
                                         } label: {
                                             Label("Add to Group", systemImage: "plus.circle")
                                         }
@@ -36,6 +40,14 @@ struct ContactsView: View {
             .listStyle(.grouped)
             .navigationTitle("Contacts")
             .navigationBarTitleDisplayMode(.inline)
+            .sheet(isPresented: $isAddingToGroup) {
+                if let contact = viewModel.contactForGroup {
+                    AddToContactGroupView(viewModel: .init(contact: contact))
+                        .onDisappear {
+                            isAddingToGroup = false
+                        }
+                }
+            }
         }
     }
 }

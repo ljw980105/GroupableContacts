@@ -18,7 +18,7 @@ struct GroupableContactsApp: App {
                             Image(systemName: "phone.fill")
                             Text("Contacts")
                         }
-                    Text("Groups")
+                    ContactGroupListView()
                         .tabItem {
                             Image(systemName: "folder.fill")
                             Text("Groups")
