@@ -13,10 +13,24 @@
 		047BE98F2751A9350094BC5F /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE98E2751A9350094BC5F /* Tests_macOSLaunchTests.swift */; };
 		047BE9902751A9350094BC5F /* GroupableContactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9682751A9330094BC5F /* GroupableContactsApp.swift */; };
 		047BE9912751A9350094BC5F /* GroupableContactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9682751A9330094BC5F /* GroupableContactsApp.swift */; };
-		047BE9922751A9350094BC5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9692751A9330094BC5F /* ContentView.swift */; };
-		047BE9932751A9350094BC5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9692751A9330094BC5F /* ContentView.swift */; };
+		047BE9922751A9350094BC5F /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9692751A9330094BC5F /* ContactsView.swift */; };
+		047BE9932751A9350094BC5F /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9692751A9330094BC5F /* ContactsView.swift */; };
 		047BE9942751A9350094BC5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047BE96A2751A9340094BC5F /* Assets.xcassets */; };
 		047BE9952751A9350094BC5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047BE96A2751A9340094BC5F /* Assets.xcassets */; };
+		047BE9A92751AB7B0094BC5F /* PermissionEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9A82751AB7B0094BC5F /* PermissionEvaluator.swift */; };
+		047BE9AA2751AB7B0094BC5F /* PermissionEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9A82751AB7B0094BC5F /* PermissionEvaluator.swift */; };
+		047BE9AC2751AD300094BC5F /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9AB2751AD300094BC5F /* PermissionsView.swift */; };
+		047BE9AD2751AD300094BC5F /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9AB2751AD300094BC5F /* PermissionsView.swift */; };
+		047BE9B02751B0060094BC5F /* PermissionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9AF2751B0060094BC5F /* PermissionsViewModel.swift */; };
+		047BE9B12751B0060094BC5F /* PermissionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9AF2751B0060094BC5F /* PermissionsViewModel.swift */; };
+		047BE9B52751BB0D0094BC5F /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9B42751BB0D0094BC5F /* ContactsViewModel.swift */; };
+		047BE9B62751BB0D0094BC5F /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9B42751BB0D0094BC5F /* ContactsViewModel.swift */; };
+		047BE9B82751BF5B0094BC5F /* Contact+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9B72751BF5B0094BC5F /* Contact+Extensions.swift */; };
+		047BE9B92751BF5B0094BC5F /* Contact+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9B72751BF5B0094BC5F /* Contact+Extensions.swift */; };
+		047BE9BC2751C8360094BC5F /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9BB2751C8360094BC5F /* ContactDetailView.swift */; };
+		047BE9BD2751C8360094BC5F /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9BB2751C8360094BC5F /* ContactDetailView.swift */; };
+		047BE9BF2751DFCC0094BC5F /* ContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9BE2751DFCC0094BC5F /* ContactsCell.swift */; };
+		047BE9C02751DFCC0094BC5F /* ContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9BE2751DFCC0094BC5F /* ContactsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +52,7 @@
 
 /* Begin PBXFileReference section */
 		047BE9682751A9330094BC5F /* GroupableContactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupableContactsApp.swift; sourceTree = "<group>"; };
-		047BE9692751A9330094BC5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		047BE9692751A9330094BC5F /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		047BE96A2751A9340094BC5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047BE96F2751A9340094BC5F /* GroupableContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupableContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047BE9752751A9350094BC5F /* GroupableContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupableContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +63,14 @@
 		047BE9882751A9350094BC5F /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		047BE98C2751A9350094BC5F /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		047BE98E2751A9350094BC5F /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		047BE9A82751AB7B0094BC5F /* PermissionEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionEvaluator.swift; sourceTree = "<group>"; };
+		047BE9AB2751AD300094BC5F /* PermissionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsView.swift; sourceTree = "<group>"; };
+		047BE9AF2751B0060094BC5F /* PermissionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsViewModel.swift; sourceTree = "<group>"; };
+		047BE9B22751B9C30094BC5F /* GroupableContacts--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GroupableContacts--iOS--Info.plist"; sourceTree = "<group>"; };
+		047BE9B42751BB0D0094BC5F /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
+		047BE9B72751BF5B0094BC5F /* Contact+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+Extensions.swift"; sourceTree = "<group>"; };
+		047BE9BB2751C8360094BC5F /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
+		047BE9BE2751DFCC0094BC5F /* ContactsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +108,7 @@
 		047BE9622751A9330094BC5F = {
 			isa = PBXGroup;
 			children = (
+				047BE9B22751B9C30094BC5F /* GroupableContacts--iOS--Info.plist */,
 				047BE9672751A9330094BC5F /* Shared */,
 				047BE9762751A9350094BC5F /* macOS */,
 				047BE97F2751A9350094BC5F /* Tests iOS */,
@@ -97,8 +120,10 @@
 		047BE9672751A9330094BC5F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				047BE9BA2751C8270094BC5F /* ContactDetail */,
+				047BE9B32751BAFC0094BC5F /* Contacts */,
+				047BE9A72751AB6C0094BC5F /* Permissions */,
 				047BE9682751A9330094BC5F /* GroupableContactsApp.swift */,
-				047BE9692751A9330094BC5F /* ContentView.swift */,
 				047BE96A2751A9340094BC5F /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -139,6 +164,35 @@
 				047BE98E2751A9350094BC5F /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		047BE9A72751AB6C0094BC5F /* Permissions */ = {
+			isa = PBXGroup;
+			children = (
+				047BE9A82751AB7B0094BC5F /* PermissionEvaluator.swift */,
+				047BE9AB2751AD300094BC5F /* PermissionsView.swift */,
+				047BE9AF2751B0060094BC5F /* PermissionsViewModel.swift */,
+			);
+			path = Permissions;
+			sourceTree = "<group>";
+		};
+		047BE9B32751BAFC0094BC5F /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				047BE9692751A9330094BC5F /* ContactsView.swift */,
+				047BE9B42751BB0D0094BC5F /* ContactsViewModel.swift */,
+				047BE9B72751BF5B0094BC5F /* Contact+Extensions.swift */,
+				047BE9BE2751DFCC0094BC5F /* ContactsCell.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		047BE9BA2751C8270094BC5F /* ContactDetail */ = {
+			isa = PBXGroup;
+			children = (
+				047BE9BB2751C8360094BC5F /* ContactDetailView.swift */,
+			);
+			path = ContactDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,7 +353,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047BE9922751A9350094BC5F /* ContentView.swift in Sources */,
+				047BE9A92751AB7B0094BC5F /* PermissionEvaluator.swift in Sources */,
+				047BE9B02751B0060094BC5F /* PermissionsViewModel.swift in Sources */,
+				047BE9B52751BB0D0094BC5F /* ContactsViewModel.swift in Sources */,
+				047BE9B82751BF5B0094BC5F /* Contact+Extensions.swift in Sources */,
+				047BE9922751A9350094BC5F /* ContactsView.swift in Sources */,
+				047BE9BF2751DFCC0094BC5F /* ContactsCell.swift in Sources */,
+				047BE9BC2751C8360094BC5F /* ContactDetailView.swift in Sources */,
+				047BE9AC2751AD300094BC5F /* PermissionsView.swift in Sources */,
 				047BE9902751A9350094BC5F /* GroupableContactsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +369,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047BE9932751A9350094BC5F /* ContentView.swift in Sources */,
+				047BE9AA2751AB7B0094BC5F /* PermissionEvaluator.swift in Sources */,
+				047BE9B12751B0060094BC5F /* PermissionsViewModel.swift in Sources */,
+				047BE9B62751BB0D0094BC5F /* ContactsViewModel.swift in Sources */,
+				047BE9B92751BF5B0094BC5F /* Contact+Extensions.swift in Sources */,
+				047BE9932751A9350094BC5F /* ContactsView.swift in Sources */,
+				047BE9C02751DFCC0094BC5F /* ContactsCell.swift in Sources */,
+				047BE9BD2751C8360094BC5F /* ContactDetailView.swift in Sources */,
+				047BE9AD2751AD300094BC5F /* PermissionsView.swift in Sources */,
 				047BE9912751A9350094BC5F /* GroupableContactsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -451,6 +520,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -468,6 +538,7 @@
 				DEVELOPMENT_TEAM = NDBTK98VL3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GroupableContacts--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -498,6 +569,7 @@
 				DEVELOPMENT_TEAM = NDBTK98VL3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GroupableContacts--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

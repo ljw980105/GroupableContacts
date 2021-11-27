@@ -11,7 +11,23 @@ import SwiftUI
 struct GroupableContactsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if PermissionEvaluator.isPermissionGranted {
+                TabView {
+                    ContactsView()
+                        .tabItem {
+                            Image(systemName: "phone.fill")
+                            Text("Contacts")
+                        }
+                    Text("Groups")
+                        .tabItem {
+                            Image(systemName: "folder.fill")
+                            Text("Groups")
+                        }
+                }
+                    
+            } else {
+                PermissionsView()
+            }
         }
     }
 }
