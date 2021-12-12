@@ -45,6 +45,8 @@
 		047BE9D5275207DF0094BC5F /* ContactGroupListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9D3275207DF0094BC5F /* ContactGroupListViewModel.swift */; };
 		047BE9DB275209660094BC5F /* ContactGroupDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9DA275209660094BC5F /* ContactGroupDetailView.swift */; };
 		047BE9DC275209660094BC5F /* ContactGroupDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9DA275209660094BC5F /* ContactGroupDetailView.swift */; };
+		047BE9DE2752B08A0094BC5F /* ContactGroupDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9DD2752B08A0094BC5F /* ContactGroupDetailViewModel.swift */; };
+		047BE9DF2752B08A0094BC5F /* ContactGroupDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9DD2752B08A0094BC5F /* ContactGroupDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +94,7 @@
 		047BE9D0275207C20094BC5F /* ContactGroupListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactGroupListView.swift; sourceTree = "<group>"; };
 		047BE9D3275207DF0094BC5F /* ContactGroupListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactGroupListViewModel.swift; sourceTree = "<group>"; };
 		047BE9DA275209660094BC5F /* ContactGroupDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactGroupDetailView.swift; sourceTree = "<group>"; };
+		047BE9DD2752B08A0094BC5F /* ContactGroupDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactGroupDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				047BE9DA275209660094BC5F /* ContactGroupDetailView.swift */,
+				047BE9DD2752B08A0094BC5F /* ContactGroupDetailViewModel.swift */,
 			);
 			path = ContactGroupDetail;
 			sourceTree = "<group>";
@@ -414,6 +418,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				047BE9C32751E7CB0094BC5F /* ContactGroupManager.swift in Sources */,
+				047BE9DE2752B08A0094BC5F /* ContactGroupDetailViewModel.swift in Sources */,
 				047BE9A92751AB7B0094BC5F /* PermissionEvaluator.swift in Sources */,
 				047BE9B02751B0060094BC5F /* PermissionsViewModel.swift in Sources */,
 				047BE9B52751BB0D0094BC5F /* ContactsViewModel.swift in Sources */,
@@ -437,6 +442,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				047BE9C42751E7CB0094BC5F /* ContactGroupManager.swift in Sources */,
+				047BE9DF2752B08A0094BC5F /* ContactGroupDetailViewModel.swift in Sources */,
 				047BE9AA2751AB7B0094BC5F /* PermissionEvaluator.swift in Sources */,
 				047BE9B12751B0060094BC5F /* PermissionsViewModel.swift in Sources */,
 				047BE9B62751BB0D0094BC5F /* ContactsViewModel.swift in Sources */,

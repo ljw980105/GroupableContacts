@@ -14,9 +14,15 @@ struct ContactGroupListView: View {
         NavigationView {
             List {
                 ForEach(viewModel.allContactGroups, id: \.group) { contactGroup in
-                    NavigationLink(destination: ContactGroupDetailView(contactGroup: contactGroup)) {
+                    NavigationLink(
+                        destination: ContactGroupDetailView(
+                            viewModel: .init(originalContactGroup: contactGroup)
+                        )) {
                         ContactGroupCell(contactGroup: contactGroup)
                     }
+                }
+                .onDelete { indexSet in
+                    viewModel.deleteContact(at: indexSet)
                 }
             }
             .navigationTitle("Contact Groups")

@@ -8,17 +8,23 @@
 import SwiftUI
 
 struct ContactGroupDetailView: View {
-    let contactGroup: ContactGroup
+    @ObservedObject var viewModel: ContactGroupDetailViewModel
     
     var body: some View {
         List {
-            ForEach(contactGroup.contacts, id: \.identifier) { contact in
+            ForEach(viewModel.contactGroup.contacts, id: \.identifier) { contact in
                 NavigationLink(destination: ContactDetailView(contact: contact)) {
                     ContactsCell(contact: contact)
                 }
             }
+            .onDelete { indexSet in
+                viewModel.deleteContact(at: indexSet)
+            }
         }
-        .navigationTitle(contactGroup.group)
+        .onAppear {
+            viewModel.getContacts()
+        }
+        .navigationTitle(viewModel.contactGroup.group)
         .navigationBarTitleDisplayMode(.inline)
     }
 }
