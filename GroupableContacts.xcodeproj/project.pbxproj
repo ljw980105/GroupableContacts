@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04578FEA27A4D7E9007D2E0D /* IndexListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04578FE927A4D7E9007D2E0D /* IndexListView.swift */; };
+		04578FEB27A4D7E9007D2E0D /* IndexListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04578FE927A4D7E9007D2E0D /* IndexListView.swift */; };
 		047BE9812751A9350094BC5F /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9802751A9350094BC5F /* Tests_iOS.swift */; };
 		047BE9832751A9350094BC5F /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE9822751A9350094BC5F /* Tests_iOSLaunchTests.swift */; };
 		047BE98D2751A9350094BC5F /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE98C2751A9350094BC5F /* Tests_macOS.swift */; };
@@ -67,6 +69,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04578FE927A4D7E9007D2E0D /* IndexListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexListView.swift; sourceTree = "<group>"; };
 		047BE9682751A9330094BC5F /* GroupableContactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupableContactsApp.swift; sourceTree = "<group>"; };
 		047BE9692751A9330094BC5F /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		047BE96A2751A9340094BC5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -208,6 +211,7 @@
 				047BE9B42751BB0D0094BC5F /* ContactsViewModel.swift */,
 				047BE9B72751BF5B0094BC5F /* Contact+Extensions.swift */,
 				047BE9BE2751DFCC0094BC5F /* ContactsCell.swift */,
+				04578FE927A4D7E9007D2E0D /* IndexListView.swift */,
 			);
 			path = Contacts;
 			sourceTree = "<group>";
@@ -428,6 +432,7 @@
 				047BE9D1275207C20094BC5F /* ContactGroupListView.swift in Sources */,
 				047BE9C72751ED880094BC5F /* AddToContactGroupView.swift in Sources */,
 				047BE9CA2751F2080094BC5F /* AddToContactGroupViewModel.swift in Sources */,
+				04578FEA27A4D7E9007D2E0D /* IndexListView.swift in Sources */,
 				047BE9BC2751C8360094BC5F /* ContactDetailView.swift in Sources */,
 				047BE9CD275206950094BC5F /* ContactGroupCell.swift in Sources */,
 				047BE9D4275207DF0094BC5F /* ContactGroupListViewModel.swift in Sources */,
@@ -452,6 +457,7 @@
 				047BE9D2275207C20094BC5F /* ContactGroupListView.swift in Sources */,
 				047BE9C82751ED880094BC5F /* AddToContactGroupView.swift in Sources */,
 				047BE9CB2751F2080094BC5F /* AddToContactGroupViewModel.swift in Sources */,
+				04578FEB27A4D7E9007D2E0D /* IndexListView.swift in Sources */,
 				047BE9BD2751C8360094BC5F /* ContactDetailView.swift in Sources */,
 				047BE9CE275206950094BC5F /* ContactGroupCell.swift in Sources */,
 				047BE9D5275207DF0094BC5F /* ContactGroupListViewModel.swift in Sources */,
@@ -624,7 +630,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -655,7 +661,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
